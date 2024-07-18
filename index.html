@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+   
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div class="nav_logo border" >
+              
+            </div>
+            <div class="nav_location border">
+                <div class="nav_adress">
+                    <p class="adress1">
+                        Deliver to
+                    </p>
+                </div>
+                <div class="nav_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>
+                    <p class="adress2">
+                        Pakistan
+                    </p>
+                </div>
+            </div>
+            <div class="nav_search">
+                    <select name="All" class="search_select">
+                        <option value="All">All</option>
+                    </select>
+                    <input type="search" name="search" placeholder="Search Amazon" class="search">
+                <div class="search_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+                </div>
+            </div>
+            <div class="language border">
+                <div class="language_img">
+                    <img src="./assets/flag.jpg" alt="" height="15px">
+                </div>
+                <select name="language" class="language_select">
+                    <option value="language">EN</option>
+                    <option value="language">English</option>
+                    <option value="language">Urdu</option>
+                    <option value="language">Spanish</option>
+
+                </select>
+            </div>
+            <div class="sign_in border">
+                <p class="para1">Hello, sign in</p>
+                <p class="para2">Accounts & lists</p>
+            </div>
+            <div class="deal border">
+                <p class="para1">Returns</p>
+                <p class="para2">& Orders</p>
+            </div>
+            <div class="cart_icon border">
+                <svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#FFFFFF"><path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/></svg>
+                <h3>Cart</h3>
+            </div>
+        </div>
+        <div class="nav_panel">
+            <div class="panel_options">
+                <div class="panel_icon border">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                    <p style="color: white; font-size: 1rem; font-weight: 700; padding-left: 10px;">All</p>
+                </div>
+                <div class="text border">
+                    <p>Today's Deal</p>
+                </div>
+                <div class="text border">
+                    <p>Customers Service</p>
+                </div>
+                <div class="text border">
+                    <p>Rigistry</p>
+                </div>
+                <div class="text border">
+                    <p>gift Cards</p>
+                </div>
+                <div class="text border">
+                    <p>Sell</p>
+                </div>
+            </div>
+            <div class="panel_deals border">
+                <p>Shop top categories</p>
+            </div>
+        </div>
+    </header>
+      <div class="slider_wraper">
+        <div class="slider">
+            <img src="./assets/img_1.jpg" alt="" id="slider1">
+            <img src="./assets/img_2.jpg" alt="" id="slider2">
+            <img src="./assets/img_3.jpg" alt="" id="slider3">
+            <img src="./assets/img_4.jpg" alt="" id="slider4">
+            <img src="./assets/img_5.jpg" alt="" id="slider5">
+            <img src="./assets/img_6.jpg" alt="" id="slider6">
+        </div>
+        <div class="slider_nav">
+            <a href="#slider1"></a>
+            <a href="#slider2"></a>
+            <a href="#slider3"></a>
+            <a href="#slider4"></a>
+            <a href="#slider5"></a>
+            <a href="#slider6"></a>
+        </div>
+      </div> 
+      
+      <div class="shop_sec">
+        <div class="cart">
+            <h2>Easy updates for elevated spaces</h2>
+            <div class="img_box" >
+                <img src="./assets/box_1a.jpg" alt="" height="100px" width="100px">
+                <img src="./assets/box_1b.jpg" alt="" height="100px" width="100px">
+                <img src="./assets/box_1c.jpg" alt="" height="100px" width="100px">
+                <img src="./assets/box_1d.jpg" alt="" height="100px" width="100px">
+            </div>
+            <p>Shop home</p>
+        </div>
+        <div class="cart">
+            <h2>Beauty steals under $25</h2>
+            <div class="img" >
+                <img src="./assets/box_2.jpg" alt="" height="250px" width="100%">
+            </div>
+            <p>Shop now</p>
+        </div>
+        <div class="cart">
+            <h2>Deals in PCs</h2>
+            <div class="img" >
+                <img src="./assets/box_3.jpg" alt="" height="100%" width="100%">
+            </div>
+            <p>Shop now</p>
+        </div>
+        <div class="cart">
+            <h2>Shop best-selling </h2>
+            <div class="img" >
+                <img src="./assets/box_4.jpg" alt="" height="250px" width="100%">
+            </div>
+            <p>See more</p>
+        </div>
+      </div>
+
+
+      <div class="shop_sec2">
+        <div class="cart">
+            <h2>Fashion trends you like</h2>
+            <div class="img_box" >
+                <img src="./assets/box_5a.jpg" alt="" height="100px" width="100px">
+                <img src="./assets/box_5b.jpg" alt="" height="100px" width="100px">
+                <img src="./assets/box_5c.jpg" alt="" height="100px" width="100px">
+                <img src="./assets/box_5d.jpg" alt="" height="100px" width="100px">
+            </div>
+            <p>Explore more</p>
+        </div>
+        <div class="cart">
+            <h2>Refresh your space</h2>
+            <div class="img_box" >
+                <img src="./assets/box_6a.jpg" alt="" height="100px" width="100px">
+                <img src="./assets/box_6b.jpg" alt="" height="100px" width="100px">
+                <img src="./assets/box_6c.jpg" alt="" height="100px" width="100px">
+                <img src="./assets/box_6d.jpg" alt="" height="100px" width="100px">
+            </div>
+            <p>See more</p>
+        </div>
+        <div class="cart">
+            <h2>Toys under $25</h2>
+            <div class="img" >
+                <img src="./assets/box_7.jpg" alt="" height="100%" width="100%">
+            </div>
+            <p>Shop now</p>
+        </div>
+        <div class="cart">
+            <h2>Gaming accessories </h2>
+            <div class="img_box" >
+                <img src="./assets/box_8a.jpg" alt="" height="100px" width="100px">
+                <img src="./assets/box_8b.jpg" alt="" height="100px" width="100px">
+                <img src="./assets/box_8c.jpg" alt="" height="100px" width="100px">
+                <img src="./assets/box_8d.jpg" alt="" height="100px" width="100px">
+            </div>
+            <p>See more</p>
+        </div>
+      </div>
+  </div>
+  <div class="shop_sec3">
+    <div class="cart">
+        <h2>Gaming merchandise</h2>
+        <div class="img_box" >
+            <img src="./assets/box_9a.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_9b.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_9c.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_9d.jpg" alt="" height="100px" width="100px">
+        </div>
+        <p>See more</p>
+    </div>
+    <div class="cart">
+        <h2>Fantastic Finds for Home</h2>
+        <div class="img_box" >
+            <img src="./assets/box_10a.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_10b.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_10c.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_10d.jpg" alt="" height="100px" width="100px">
+        </div>
+        <p>See more</p>
+    </div>
+    <div class="cart">
+        <h2>Level up your gaming</h2>
+        <div class="img_box" >
+            <img src="./assets/box_11a.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_11b.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_11c.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_11d.jpg" alt="" height="100px" width="100px">
+        </div>
+        <p>Shop the latest in game</p>
+    </div>
+    <div class="cart">
+        <h2>Have more fun with family</h2>
+        <div class="img_box" >
+            <img src="./assets/box_12a.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_12b.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_12c.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_12d.jpg" alt="" height="100px" width="100px">
+        </div>
+        <p>See more</p>
+    </div>
+  </div>
+  <div class="shop_sec5">
+    <div class="cart">
+        <h2>A whole new way to work</h2>
+        <div class="img" >
+            <img src="./assets/box_17.jpg" alt="" height="100%" width="100%">
+        </div>
+        <p>Shop personal computer</p>
+    </div>
+    <div class="cart">
+        <h2>Upgrade your office furniture</h2>
+        <div class="img" >
+            <img src="./assets/box_18.jpg" alt="" height="100%" width="100%">
+        </div>
+        <p>Shop now</p>
+    </div>
+    <div class="cart">
+        <h2>Shop activity trackers and smartwatches</h2>
+        <div class="img" >
+            <img src="./assets/box_19.jpg" alt="" height="100%" width="100%">
+        </div>
+        <p>Shop now</p>
+    </div>
+    <div class="cart">
+        <h2>Curate your space</h2>
+        <div class="img_box" >
+            <img src="./assets/box_20a.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_20b.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_20c.jpg" alt="" height="100px" width="100px">
+            <img src="./assets/box_20d.jpg" alt="" height="100px" width="100px">
+        </div>
+        <p>See more</p>
+    </div>
+  </div>
+            <div class="personal_info">          
+                <p style="margin-top: 50px;">See personalized recommendations</p>
+                <input type="button" value="Sign in">
+                <p style="padding-top: 10px; padding-left: 30px;">New customer? <a style="color: blue; ">Start here.</a></p>
+            </div>
+        <footer>
+            <div class="foot_panel1">
+                <p style="color: white;">Back to top</p>
+            </div>
+            <div class="foot_panel2">
+               <div>
+                <p>Get to Know Us</p>
+                <a >Careers</a>
+                <a >Blog</a>
+                <a >About Amazon</a>
+                <a >Investor Relations</a>
+                <a >Amazon Devices</a>
+                <a >Amazon Science</a>
+               </div>
+               <div>
+                <p>Make Money with Us</p>
+                <a >Sell products on Amazon</a>
+                <a >Sell on Amazon Business</a>
+                <a >Sell apps on Amazon</a>
+                <a >Become an Affiliate</a>
+                <a >Advertise Your Products</a>
+                <a >Self-Publish with Us</a>
+                <a >Host an Amazon Hub</a>
+               </div>
+               
+               <div>
+                <p>Amazon Payment Products</p>
+                <a >Amazon Business Card</a>
+                <a >Shop with Points</a>
+                <a >Reload Your Balance</a>
+                <a >Amazon Currency Converter</a>
+               </div>
+               <div>
+
+                <p>Let Us Help You</p>
+                <a >Amazon and COVID-19</a>
+                <a >Your Account</a>
+                <a >Your Orders</a>
+                <a >Shipping Rates & Policies</a>
+                <a >Returns & Replacements</a>
+                <a >Manage Your Content and Devices</a>
+                <a >Help</a>
+               </div>
+            </div>
+            <div class="foot_panel3">
+                <div class="panel3_logo" style="margin-right: 30px;">
+                    <img src="./assets/amazon_logo.jpeg" alt="" height="40px">
+                </div>
+                <div class="panel3_language">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-155.5t86-127Q252-817 325-848.5T480-880q83 0 155.5 31.5t127 86q54.5 54.5 86 127T880-480q0 82-31.5 155t-86 127.5q-54.5 54.5-127 86T480-80Zm0-82q26-36 45-75t31-83H404q12 44 31 83t45 75Zm-104-16q-18-33-31.5-68.5T322-320H204q29 50 72.5 87t99.5 55Zm208 0q56-18 99.5-55t72.5-87H638q-9 38-22.5 73.5T584-178ZM170-400h136q-3-20-4.5-39.5T300-480q0-21 1.5-40.5T306-560H170q-5 20-7.5 39.5T160-480q0 21 2.5 40.5T170-400Zm216 0h188q3-20 4.5-39.5T580-480q0-21-1.5-40.5T574-560H386q-3 20-4.5 39.5T380-480q0 21 1.5 40.5T386-400Zm268 0h136q5-20 7.5-39.5T800-480q0-21-2.5-40.5T790-560H654q3 20 4.5 39.5T660-480q0 21-1.5 40.5T654-400Zm-16-240h118q-29-50-72.5-87T584-782q18 33 31.5 68.5T638-640Zm-234 0h152q-12-44-31-83t-45-75q-26 36-45 75t-31 83Zm-200 0h118q9-38 22.5-73.5T376-782q-56 18-99.5 55T204-640Z"/></svg>
+                    <p style="color: #e2e7e6;">English</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-120 300-300l58-58 122 122 122-122 58 58-180 180ZM358-598l-58-58 180-180 180 180-58 58-122-122-122 122Z"/></svg>
+                </div>
+                <div class="panel3_money">
+                    <p style="color: #e2e7e6;">$ &nbsp; USD-U.S.Dollar</p>
+                </div>
+                <div class="panel3_country">
+                    <img src="./assets/flag.jpg" alt="" height="15px">
+                <p style="color: #e2e7e6; padding-left: 5px;">United States</p>
+                </div>
+            </div>
+            <div class="foot_panel4">
+                <div class="pages">
+                    <p>Amazon Music</p>
+                    <a >Stream millions</a>
+                    <a >of songs</a>
+                </div>
+                <div class="pages">
+                    <p>Amazon Ads</p>
+                    <a >Reach customers</a>
+                    <a >wherever they</a>
+                    <a >spend their time</a>
+                </div>
+                <div class="pages">
+                   <p> 6pm</p>
+                    <a >Score deals</a>
+                    <a >on fashion brands</a>
+                </div>
+                <div class="pages">
+                    <p>AbeBooks</p>
+                    <a >Books, art</a>
+                    <a >& collectibles</a>
+                </div>
+                <div class="pages">
+                    <p>ACX</p>
+                    <a >Audiobook Publishing</a>
+                    <a >Made Easy</a>
+                </div>
+                <div class="pages">
+                    <p>Sell on Amazon</p>
+                    <a >Start a Selling</a>
+                    <a >Accounts</a>
+                </div>
+                <div class="pages">
+                    <p>Amazon Business</p>
+                    <a >Everything For</a>
+                    <a >Your Business</a>
+                </div>
+                <div class="pages">
+                    <p>AmazonGlobal</p>
+                    <a >Ship Orders</a>
+                    <a >Internationally</a>
+                </div>
+                <div class="pages">
+                    <p>Home Services</p>
+                    <a >Experienced Pros</a>
+                    <a >Happiness Guarantee</a>
+                </div>
+                <div class="pages">
+                   <p> Amazon Web Services</p>
+                    <a >Scalable Cloud</a>
+                    <a >Computing Services</a>
+                </div>
+                <div class="pages">
+                    <p>Audible</p>
+                    <a >Listen to Books & Original</a>
+                    <a >Audio Performances</a>	
+                </div>
+                <div class="pages">
+                    <p>Box Office Mojo</p>
+                    <a >Find Movie</a>
+                    <a >Box Office Data</a>
+                </div>
+                <div class="pages">
+                    <p>Goodreads</p>
+                    <a >Book reviews</a>
+                    <a >& recommendations</a>
+                </div>
+                <div class="pages">
+                    <p>IMDb</p>
+                    <a >Movies, TV</a>
+                    <a >& Celebrities</a>
+                </div>
+                <div class="pages">
+                    <p>IMDbPro</p>
+                    <a >Get Info Entertainment</a>
+                    <a >Professionals Need</a>
+                </div>
+                <div class="pages">
+                    <p>Kindle Direct Publishing</p>
+                    <a >Indie Digital & Print Publishing</a>
+                    <a >Made Easy</a>
+                </div>
+                <div class="pages">
+                    <p>Prime Video Direct</p>
+                    <a >Video Distribution</a>
+                    <a >Made Easy</a>
+                </div>
+                <div class="pages">
+                    <p>Shopbop</p>
+                    <a href="Designer"></a>
+                    <a >Fashion Brands</a>
+                </div>
+                <div class="pages">
+                    <p>Woot!</p>
+                    <a >Deals and</a>
+                    <a >Shenanigans</a>
+                </div>
+                <div class="pages">
+                    <p>Zappos</p>
+                    <a >Shoes &</a>
+                    <a href="Clothing"></a>
+                </div>
+                <div class="pages">
+                    <p>Ring</p>
+                    <a >Smart Home</a>
+                    <a >Security Systems</a>
+                </div>
+                <div class="pages">
+                    <p>eero WiFi</p>
+                    <a >Stream 4K Video</a>
+                    <a >in Every Room</a>
+                </div>
+                <div class="pages">
+                    <p>Blink</p>
+                    <a >Smart Security</a>
+                    <a >for Every Home</a>
+                </div>
+                <div class="pages">
+                    <p>Neighbors App</p>
+                    <a >Real-Time Crime</a>
+                    <a >& Safety Alerts</a>
+                </div>
+                <div class="pages">
+                    <p>Amazon Subscription Boxes</p>
+                    <a >Top subscription boxes</a>
+                    <a >– right to your door</a>
+                </div>
+                <div class="pages">
+                    <p>PillPack</p>
+                    <a >Pharmacy</a>
+                    <a >Simplified</a>
+                </div>
+            </div>
+            <div class="foot_panel5">
+               <div class="panel5_info">
+                <p>Conditions of Use</p>
+                <p>Privacy Notice</p>
+                <p>Consumer Health Data Privacy Disclosure</p>
+                <p>Your Ads Privacy Choices</p>
+               </div>
+
+                <div class="panel5_copyright">
+                    <p><span>&#169</span> &nbsp; 1996-2024, Amazon.com, Inc. or its affiliates</p>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>
